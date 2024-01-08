@@ -1,0 +1,28 @@
+.tableContainer {
+    max-width: 100%;
+    overflow-x: auto;
+    border: 2px solid #333;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 30px -5px #ffffff89;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+
+}
+
+th, td {
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+        background-color: #333;
+    }
